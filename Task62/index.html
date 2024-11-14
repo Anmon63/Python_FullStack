@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>JS Task29</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="t.js"></script>
+    </head>
+    <body>
+        <h1 class="a1"><b>Enter Password</b></h1>
+        <form action="" onsubmit="return false">
+        <input type="text" id="pass" placeholder="Enter your Password" oninput="validate()"> 
+        <h2 id="s"></h2>
+        <button type="submit" id="subbtn">Submit</button>
+        </form>
+        <ul>
+            <li><p>If the password contains Char, Number and Special Char and the length is more than 12 it is Strong (Green color)</p></li>
+            <li><p>If the password contains Char, Number and the length is less than 12 it is Medium (orange color)</p></li>
+            <li><p>In other cases it should be weak. (Red Color)</p></li>
+        </ul>
+    </body>
+</html>

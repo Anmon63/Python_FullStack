@@ -1,0 +1,29 @@
+body{
+    background-image: url("carsbg.jpeg");
+    background-size: cover;
+    text-align: center;
+    padding-top: 150px;
+}
+button{
+    font-size: 50px;
+    padding: 20px;
+    border-radius: 80px;
+    border: 0px;
+    background-color: black;
+    color: white;
+}
+input{
+    width:550px;
+    margin-bottom: 50px;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.a1{
+    display: block;
+}
+p{
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aqua;
+}
