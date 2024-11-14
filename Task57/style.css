@@ -1,0 +1,129 @@
+.a1{
+    background-image: url("image/2.webp");
+    background-size: cover;
+    height: 900px;
+    color: orangered;
+    text-align: center;
+}
+.a11{
+    margin-top: -105px;
+    font-size: 30px;
+
+}
+.a12{
+    padding-top: 20px;
+    font-size: 90px;
+}
+.a13{
+    margin-left: 1200px;
+    font-size: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    color: black;
+}
+.a14{
+    margin-left: 1200px;
+    margin-top: 20px;
+    background-color: orangered;
+    padding: 10px;
+    color: black;
+}
+.a2{
+    text-align: center;
+}.a21{
+    color: orangered;
+    margin-top: 40px;
+}
+.a22{
+    padding: 70px;
+}
+.a221{
+    padding: 50px;
+}
+.a3{
+    background-image: url("image/7.webp");
+    background-size: cover;
+    height: 900px;
+}
+.a31{
+    font-size: 15px;
+    text-align: end;
+    padding-top: 800px;
+    padding-right: 50px;
+}
+.a4{
+    text-align: center;
+}
+.a4 button{
+    background-color: orangered;
+    color: white;
+    font-family:fantasy;
+    font-size: 40px;
+}
+.a41{
+    font-size: 30px;
+}
+.a5{
+    padding-top: 150px;
+    background-color: #fce4de;
+    padding-bottom: 100px;
+}
+.a52{
+    width:30px;
+    padding-bottom:70px;
+    background-color: #fce4de;
+}
+.a51{
+    width: 700px !important;
+    height: 450px;
+    margin-left: 100px;
+    background-color: #fce4de;
+}.a53{
+    width:525px;
+    margin-left: 358px;
+    background-color: #fce4de;
+
+}
+.a54{
+    color: orangered;
+    font-size: 30px;
+    background-color: #fce4de;
+}.a55{
+    background-color: #fce4de;
+}
+.a57{
+    padding-bottom: 82px;
+}
+.a6r{
+    text-align: center;
+    padding: 70px;
+}
+.a61 img,.a62 img,.a63 img{
+    padding-bottom: 30px;
+}
+.a61 h1,.a62 h1,.a63 h1{
+    color: orangered;
+    padding-bottom: 30px;
+}
+.a6{
+    background-color: #fce4de;
+}
+.a7{
+    background-image: url("image/1.jpg");
+    background-size: 1350px;
+    background-position:bottom;
+    background-position-y: 1050px;
+    color: orangered;
+}
+.a7 button{
+    padding: 10px;
+    width:150px;
+    border-radius: 90px;
+    border-color: orangered;
+    color: orangered;
+}
+.a71{
+    padding-top: 450px;
+    padding-left: 50px;
+    padding-bottom: 250px;
+}

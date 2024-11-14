@@ -1,0 +1,16 @@
+#greater{
+    text-align: center;
+    padding-top: 150px;
+    font-size: 90px;
+    color: white;
+}
+.b1{
+    text-align: center;
+}
+button{
+    font-size: 50px;
+}
+body{
+    background-image: url("img.png");
+    background-size: cover;
+}

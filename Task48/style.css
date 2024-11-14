@@ -1,0 +1,19 @@
+.fight{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    
+}.b1{
+    padding: 20px;
+    border-radius: 50px;
+    background-color: goldenrod;
+    font-size: 30px;
+}
+body{
+    text-align: center;
+    background-image: linear-gradient(to right,red,purple);
+    color: white;
+}
+.em{
+    font-size: 60px;
+}

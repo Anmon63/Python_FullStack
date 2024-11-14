@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(73, 73, 73);
+    color: white;
+    text-align: center;
+}
+p{
+    background-color: rgb(255, 153, 0);
+    color: white;
+    width: 400px;
+    margin-left: 450px;
+    padding: 20px;
+}
+input{
+    background-color: palevioletred;
+    font-size: 25px;
+    height: 30px;
+    width:300px;
+    border-radius: 10px;
+    text-align: center;
+}.b1{
+    margin-top: 40px;
+    padding: 20px;
+}

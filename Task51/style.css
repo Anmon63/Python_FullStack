@@ -1,0 +1,22 @@
+.f{
+    display: flex;
+    justify-content: space-between;
+}
+.side2{
+    width:710px;
+    margin-right: -12px;
+    padding-bottom: 100px;
+}
+button{
+    display: block;
+    border: 0px;
+}
+.im1{
+    font-size: 125px;
+    color:white;
+    background-color: black;
+    margin-left: 100px;
+}
+.side1{
+    padding-left: 50px;
+}

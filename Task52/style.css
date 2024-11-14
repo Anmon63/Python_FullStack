@@ -1,0 +1,21 @@
+.i1,.i2,.i3{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+body{
+    background-image: url("img.png");
+    background-size: cover;
+}
+.i1{
+    padding-top: 100px;
+}
+#x,#y{
+    height:30px
+}button{
+    font-size: 70px;
+    width: 70px;;
+}
+#display{
+    color: white;
+}

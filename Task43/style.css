@@ -1,0 +1,35 @@
+body {
+    background-image: linear-gradient(to right, rgb(253, 5, 170), rgb(25, 0, 255));
+}
+
+.e {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+}
+
+#q {
+    text-align: center;
+    font-size: 40px;
+}
+
+.s {
+    text-align: center;
+}
+
+.w {
+    text-align: center;
+}
+
+.a11 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.b11,
+.b21,
+.c11,
+.c21 {
+    margin-top: 40px;
+    padding: 20px;
+}
