@@ -1,0 +1,25 @@
+.q {
+    background-image: url(image/im1.png);
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.card-img-top {
+    width: 114px !important;
+    margin-left: 100px;
+}
+
+.k {
+    padding-top: 30px;
+}
+
+.d {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.s {
+    text-align: center;
+}

@@ -1,0 +1,232 @@
+    header {
+        background-image: url(image/3.webp);
+    }
+    
+    body {
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .he1 {
+        font-size: 90px;
+        color: #d0ff95;
+        padding-left: 50px;
+    }
+    
+    .he2 {
+        color: white;
+        font-size: 30px;
+        font-family: monospace;
+        padding-top: 50px;
+        position: relative;
+        top: 8px;
+        right: 84px;
+        width: 215px;
+    }
+    
+    .he3 {
+        color: white;
+        font-size: 40px;
+        padding-left: 50px;
+    }
+    
+    .h {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .h1 {
+        display: block;
+    }
+    
+    .he4 {
+        background-color: #d0ff95;
+        width: 155px;
+        height: 50px;
+        font-size: 20px;
+        margin-left: 1000px;
+        margin-bottom: 100px;
+    }
+    
+    .s1 {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 50px;
+    }
+    
+    .s11 {
+        font-size: 40px;
+        padding-left: 50px;
+    }
+    
+    .s12 {
+        font-size: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 50px;
+    }
+    
+    .s12 {
+        padding-left: 70px;
+    }
+    
+    .s2 {
+        background-color: #d0ff95;
+        display: flex;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    
+    .s21 {
+        padding-left: 100px;
+    }
+    
+    .s22 {
+        font-size: 30px;
+        padding-left: 40px;
+    }
+    
+    .s222 {
+        padding: 20px;
+    }
+    
+    .s221 {
+        padding-bottom: 0px;
+    }
+    
+    li {
+        padding: 40px;
+    }
+    
+    .s3 {
+        background-image: url(image/2.webp);
+        padding-left: 200px;
+        padding-top: 150px;
+        padding-right: 150px;
+        padding-bottom: 200px;
+        color: #d0ff95;
+    }
+    
+    .s31 {
+        padding-left: 150px;
+    }
+    
+    .s3 h1 {
+        font-size: 80px;
+        padding-left: 50px;
+    }
+    
+    .s4 {
+        background-color: #f1ebe6;
+    }
+    
+    .s4 h1 {
+        font-size: 40px;
+        padding-left: 550px;
+        padding-top: 50px;
+    }
+    
+    .s4a {
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+        font-size: 35px;
+    }
+    
+    .s41,
+    .s42,
+    .s43 {
+        margin: 30px;
+        padding: 30px;
+        background-color: white;
+    }
+    
+    footer {
+        margin-left: -8px;
+        margin-right: -8px;
+        margin-bottom: -8px;
+    }
+    
+    .f {
+        background-image: url(image/5.webp);
+        padding-top: 200px;
+        padding-bottom: 100px;
+        padding-right: 200px;
+        padding-left: 80px;
+    }
+    
+    .f1 {
+        font-size: 70px;
+        color: white;
+    }
+    
+    .f2 {
+        font-size: 25px;
+        color: white;
+        padding-right: 350px;
+    }
+    
+    button {
+        background-color: white;
+        font-size: 15px;
+        width: 170px;
+        height: 50px;
+    }
+    
+    .fd {
+        display: flex;
+    }
+    
+    @media screen and (max-width:480px) {
+        .s2 {
+            display: block;
+        }
+        .s21 img {
+            width: 300px;
+            height: 200px;
+        }
+        .h {
+            display: block;
+        }
+        .he2,
+        .he4 {
+            display: block;
+        }
+        .he2 {
+            padding-left: 100px;
+            padding-bottom: 50px;
+        }
+        .he4 {
+            margin-left: 50px;
+            margin-bottom: 50px;
+        }
+        header {
+            padding-bottom: 30px;
+            padding-top: 30px;
+        }
+        .s3 {
+            padding-left: 20px;
+        }
+        .s3 h1 {
+            font-size: 35px;
+        }
+        .s31 {
+            width: 100px;
+            height: 50px;
+        }
+        .s4 h1 {
+            padding-left: 20px;
+        }
+        .s4a {
+            display: block;
+        }
+        .fd {
+            display: block;
+        }
+        .s1 {
+            display: block;
+        }
+        .f2 {
+            width: 400px;
+        }
+    }

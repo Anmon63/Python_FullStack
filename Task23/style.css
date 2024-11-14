@@ -1,0 +1,22 @@
+    body {
+        background-image: url(image/pic.png);
+    }
+    
+    .q {
+        padding-left: 400px;
+        height: 130px;
+        width: 500px;
+    }
+    
+    h1 {
+        color: rgb(21, 24, 241);
+        font-size: 80px;
+        padding-left: 300px;
+    }
+    
+    button {
+        font-size: 60px;
+        padding: 20px;
+        color: rgb(8, 108, 196);
+        margin-left: 550px;
+    }

@@ -1,0 +1,306 @@
+ .a {
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .b {
+     background-color: #00abab;
+     padding: 15px;
+     display: flex;
+ }
+ 
+ .c {
+     display: flex;
+ }
+ 
+ li {
+     display: inline;
+     padding: 10px;
+ }
+ 
+ .d {
+     display: flex;
+     justify-content: flex-end;
+ }
+ 
+ body {
+     margin: 0px auto;
+     padding: 0px;
+ }
+ 
+ .overlay {
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 100%;
+ }
+ 
+ .header {
+     position: relative;
+     background-color: black;
+     height: max-content;
+     min-height: 25rem;
+     min-width: 100%;
+     overflow: hidden;
+     padding-bottom: 50px;
+ }
+ 
+ .overlay {
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 100%;
+ }
+ 
+ .maintext {
+     padding-top: 100px;
+     color: white;
+     font-size: 55px;
+ }
+ 
+ .z {
+     text-align: center;
+     margin-top: 300px;
+ }
+ 
+ .zb {
+     font-size: x-large!important;
+ }
+ 
+ .header video {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     bottom: 100%;
+     z-index: 0;
+     -ms-transform: translateX(-50%) translateY(-50%);
+     -moz-transform: translateX(-50%) translateY(-50%);
+     -webkit-transform: translateX(-50%) translateY(-50%);
+ }
+ 
+ .f {
+     display: flex;
+     color: white;
+     padding: 0;
+ }
+ 
+ .e {
+     background-color: #00abab;
+     padding-top: 50px;
+     padding-left: 50px;
+     padding-right: 70px;
+ }
+ 
+ .e2 {
+     margin-right: 0px;
+ }
+ 
+ .e1 {
+     color: yellow;
+ }
+ 
+ .e h1 {
+     font-size: 60px;
+     text-align: center;
+ }
+ 
+ .e p {
+     font-size: 30px;
+     text-align: center;
+ }
+ 
+ .g2 {
+     background-image: url(image/2.webp);
+     background-size: cover;
+     padding-top: 250px;
+     padding-bottom: 250px;
+ }
+ 
+ .g21,
+ .h11,
+ .h21 {
+     border: 4px solid yellow;
+     text-align: center;
+ }
+ 
+ .g1 {
+     background-color: #124747;
+     color: white;
+     text-align: center;
+     padding-top: 250px;
+     padding-bottom: 250px;
+ }
+ 
+ .g1 h2 {
+     font-size: 60px;
+ }
+ 
+ .g11 {
+     color: yellow;
+     display: inline;
+     font-size: 60px;
+ }
+ 
+ .g12 {
+     font-size: 30px;
+ }
+ 
+ .g1 button {
+     font-size: 30px;
+ }
+ 
+ .g1b {
+     color: #124747;
+ }
+ 
+ .h1 {
+     background-image: url(image/3.jpg);
+     background-size: cover;
+     padding-top: 250px;
+     padding-bottom: 250px;
+     margin: 0px !important;
+ }
+ 
+ .h11,
+ .h21 {
+     font-size: 25px;
+ }
+ 
+ .h1c,
+ .h2c,
+ .g2c {
+     margin-left: 150px;
+ }
+ 
+ .h2c {
+     margin-bottom: 150px;
+ }
+ 
+ .h2 {
+     background-image: url(image/1.jpg);
+     background-size: cover;
+     padding-top: 250px;
+     margin: 0px !important;
+ }
+ 
+ .i {
+     background-color: #00abab;
+     padding: 50px;
+ }
+ 
+ .i1 {
+     background-color: #124747;
+     color: white;
+ }
+ 
+ .i11 {
+     height: 320px;
+ }
+ 
+ .i31 {
+     height: 322px;
+ }
+ 
+ .i21 {
+     height: 322px;
+ }
+ 
+ .ij {
+     display: flex;
+     padding-left: 70px;
+     padding-right: 70px;
+ }
+ 
+ .ij1 {
+     text-align: center;
+ }
+ 
+ .j {
+     background-color: yellow;
+     font-size: 30px;
+     padding-left: 150px !important;
+     padding-top: 70px;
+     padding-bottom: 70px;
+ }
+ 
+ .j1 {
+     display: flex;
+     justify-content: center;
+ }
+ 
+ footer {
+     background-image: url(image/9.jpg);
+     background-size: cover;
+     color: white;
+ }
+ 
+ footer h1 {
+     padding-bottom: 700px;
+     padding-top: 100px;
+     text-align: center;
+     font-size: 55px;
+ }
+ 
+ .j11 {
+     color: #124747;
+ }
+ 
+ @media screen and (max-width:870px) {
+     .f {
+         display: block;
+     }
+ }
+ 
+ @media screen and (max-width: 750px) {
+     .b {
+         display: block;
+     }
+     .c {
+         justify-content: center;
+     }
+ }
+ 
+ @media screen and (max-width:550px) {
+     .d {
+         display: block;
+         text-align: center;
+     }
+     .j {
+         padding-left: 50px !important;
+     }
+     .g2c,
+     .h1c,
+     .h2c {
+         margin-left: 50px;
+     }
+     .g1 h2,
+     .g12,
+     .g11,
+     .e11 h1,
+     .e11 p {
+         font-size: 30px;
+     }
+ }
+ 
+ @media screen and (max-width: 360px) {
+     .g2c,
+     .h1c,
+     .h2c {
+         margin-left: 20px;
+     }
+     .y {
+         font-size: 20px;
+     }
+ }
+ 
+ @media screen and (max-width: 200px) {
+     .y {
+         font-size: 10px;
+     }
+ }
+ 
+ @media screen and (max-width: 110px) {
+     .c {
+         display: block;
+     }
+ }

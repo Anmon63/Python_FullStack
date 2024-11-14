@@ -1,0 +1,26 @@
+.q {
+    background-image: linear-gradient(to right, #117899, #cd678c);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.e {
+    padding: 30px;
+}
+
+body {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.w {
+    width: 450px;
+    color: white;
+    margin-left: 50px;
+    font-weight: 900px;
+}
+
+.v {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}

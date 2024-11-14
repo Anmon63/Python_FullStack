@@ -1,0 +1,44 @@
+.container {
+    border: 1px solid purple;
+    margin-top: 20px;
+}
+
+.row {
+    border: 1px solid purple;
+}
+
+.col-1 {
+    border: 1px dotted white;
+}
+
+.a {
+    background-color: purple;
+}
+
+.z {
+    background-color: blueviolet;
+}
+
+.v {
+    margin-top: 20px;
+}
+
+.p {
+    background-color: navy;
+}
+
+.o {
+    background-color: orangered;
+}
+
+.i {
+    background-color: green;
+}
+
+.u {
+    background-color: red;
+}
+
+.f {
+    border: 1px solid;
+}

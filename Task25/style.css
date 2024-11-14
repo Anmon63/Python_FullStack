@@ -1,0 +1,68 @@
+body {
+    background-image: url('image/pic.png')
+}
+
+button {
+    display: block;
+}
+
+.wq {
+    color: white;
+}
+
+.q {
+    margin-left: 450px;
+    margin-top: 120px;
+    padding-bottom: -75px;
+    padding-top: 10px;
+    padding-left: 45px;
+    margin-right: 500px;
+    background-color: rgba(5, 5, 5, 0.75);
+}
+
+.w {
+    padding-right: 88px;
+    padding-top: 12px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.p {
+    display: block;
+    margin-top: 10px;
+    padding-right: 88px;
+    padding-top: 12px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.e {
+    margin-top: 5px;
+}
+
+.r {
+    margin-top: 10px;
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: aqua;
+}
+
+h2 {
+    padding-left: 80px;
+}
+
+a {
+    color: lightblue;
+}
+
+form {
+    margin-top: 50px;
+    height: 250px;
+    width: 300px;
+}
+
+label {
+    color: white;
+}

@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.p {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.s {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.d {
+    padding-top: 40px;
+}
+
+.f {
+    margin-left: 50px;
+}
+
+.u {
+    width: 300px;
+    height: 300px;
+}
+
+li {
+    display: inline;
+    padding: 2px;
+}
+
+.z {
+    padding: 10px;
+    text-align: center;
+}

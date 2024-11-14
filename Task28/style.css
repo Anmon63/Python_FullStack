@@ -1,0 +1,27 @@
+.rounded-circle {
+    width: 70px;
+    height: 70px;
+}
+
+.s {
+    color: green;
+    width: 50px;
+    font-size: 20px;
+}
+
+.t {
+    color: yellow;
+}
+
+.table {
+    color: white;
+}
+
+.display-3 {
+    text-align: center;
+}
+
+td,
+th {
+    color: white;
+}
