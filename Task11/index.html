@@ -1,0 +1,105 @@
+<htmL>
+    <head>
+        <title>Project</title>
+        <style>
+            form{
+                border:1px solid;
+                margin-right:500px;
+                padding-left:30px;
+                margin-left:450px;
+                background-color:lightblue;
+            }
+            td{
+                padding-top:15px;
+                padding-right:15px;
+            }
+            button{
+                text-align:center;
+                margin-left:70px;
+                margin-top:10px;
+                margin-bottom:10px;
+                padding-left:10px;
+                padding-right:10px;
+                padding-top:10px;
+                padding-bottom:10px;
+            }
+            #b1{
+                background-color:lightgreen;
+            }
+            #b2{
+                background-color:lightblue;
+            }
+            h2{
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+        <h2><u>Project Management</u></h2>
+        <form>
+        <table>
+        <tr>
+            <td>
+                <label for='name'>Project name</label>
+            </td>
+            <td>
+                <input type='text' placeholder='Project name'>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for='name'>Assigned to</label>
+            </td>
+            <td>
+                <select name="prj" id="Prj">
+                <option value="BT">Er Merry Pestition</option>
+                <option value="DP">Dopple</option>
+                <option value="IT">IT Infrastucture</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for='date'>Start  date</label>
+            </td>
+            <td>
+                <input type='date'>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for='date'>End  date</label>
+            </td>
+            <td>
+                <input type='date'>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Priority:</label>
+            </td>
+            <td>
+                <input type='radio' name='h'>
+                <label for='high'>High</label>
+                <input type='radio' name='h'>
+                <label for='avg'>Average</label>
+                <input type='radio' name='h'>
+                <label for='low'>Low</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Description</label>
+            </td>
+            <td>
+                <textarea></textarea>
+            </td>
+        </tr>
+    </table>
+                <div class='but'>
+                <button id='b1'>Submit</button>
+                <button id='b2'>clear</button>
+                </div>
+    </form>
+    </body>
+</html>

@@ -1,0 +1,160 @@
+<htmL>
+    <head>
+        <title>forms</title>
+        <style>
+            .s1{
+                background-color:blue;
+                color:white;
+                margin-left:400px;
+                margin-top:30px;
+            }
+            .p2{
+                padding-left:500px
+            }
+            form{
+                background-color:yellow;
+                border:1px solid;
+              margin-left: 200px;
+              margin-right:200px;
+              height:650px;
+
+            }
+            table{
+                padding-left:10px;
+                padding-top:20px;
+            }
+            
+
+        </style>
+    </head>
+    <body>
+        <h1 class=p2><u>Student Registration form</u></h1>
+        <form>
+
+        <table>
+        <tr>
+            <td><label for='name'>Firstname:</label></td>
+            <td><input type='text' placeholder='Enter your first name'><label>(Maximum 30 characters A-Z and a-z)</label></td>
+        </tr>
+        <tr>
+            <td><label for='name'>Lastname</label></td>
+            <td><input type='text' placeholder='Enter your Lastnamename'><label>(Maximum 30 characters A-Z and a-z)</label></td>
+        </tr>
+       <tr>
+        <td><label>date of Birth:</label></td>
+        <td><select name="day" id="day">
+            <option value="1">Day</option></select>
+       <select name='month' id='month'>
+        <option value="month">month</option></select>
+        <select name='year' id='year'>
+        <option value="year">year</option>
+        </select>
+    </td></tr>
+        <tr>
+        <td><br><label for='Email'>Email-ID</label></td>
+        <td><input type='Email' placeholder='Enter your email'><br></td>
+        </tr>
+        <tr>
+        <td><label>Contact number</label></td>
+        <td><input type='number' placeholder='Enter your number'><label>(10 Digit Number)</label></td>
+        </tr>
+        <tr>
+        <td><label>Gender:</label></td>
+        <td><input type='radio' name='female'>
+        <label for='female'>Female</label>
+        <input type='radio' name='female'>
+        <label for='male'>Male</label></td>
+        <tr>
+        <td><label>Address</label></td>
+        <td><textarea></textarea><br></td>
+        </tr><tr>
+        <td><label>City</label></td>
+        <td><input type='text' placeholder='Enter your city'><label>(Maximum 30 characters A-Z and a-z)</label></td>
+        </tr><tr>
+        <td><label>Pincode</label></td>
+        <td><input type='number' placeholder='Enter your pincode'><label>(6 Digit Number)</label></td></tr>
+        <tr>
+        <td><label>State</label></td>
+        <td><input type='text' placeholder='Enter your state'><label>(Maximum 30 characters A-Z and a-z)</label></td></tr>
+        <tr><td><label>Country</label></td>
+        <td><input type='text' placeholder='Enter your country'><br></td></tr>
+       <tr><td><label>Hobbies:</label></td>
+        <td><label for='Pl1'>Drawing</label>
+    <input type='checkbox' name='Pl1 '>
+    <label for='pl2'>Singing</label>
+    <input type='checkbox' name='pl2'>
+    <label for='pl3'>Dancing</label>
+    <input type='checkbox' name='pl3'>
+    <label for='pl4'>Sketching</label>
+    <input type='checkbox' name='pl4'></td>
+    </tr>
+    <td></td><td>
+    <label for='pl5'>Others</label>
+    <input type='checkbox' name='pl5'>
+    <input type='text'><br></td>
+    </tr><tr>
+    <td><label>Qualifications:</label></td>
+    <td><table>
+        <tr class='p1'>
+            <th>Sl no.</th>
+            <th>Examinations</th>
+            <th>Board</th>
+            <th>Percentage</th>
+            <th>Year of passing</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td class='p1'>Class X</td>
+            <td><input type='text'></td>
+            <td><input type='Percentage'></td>
+            <td><input type='number'></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td class='p1'>Class Xll</td>
+            <td><input type='text'></td>
+            <td><input type='Percentage'></td>
+            <td><input type='number'></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td class='p1'>Graduation</td>
+            <td><input type='text'></td>
+            <td><input type='Percentage'></td>
+            <td><input type='number'></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td class='p1'>Masters</td>
+            <td><input type='text'></td>
+            <td><input type='Percentage'></td>
+            <td><input type='number'></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>(10 characters Max)</td>
+            <td>(Upto Two decimal)</td>
+            <td></td>
+        </tr>
+    </table></td>
+</tr>
+<tr>
+<td><label>Courses Applied For:</label>
+<label for='pl6'>BCA</label></td>
+<td><input type='radio' name='pl6'>
+<label for='pl7'>BCom</label>
+<input type='radio' name='pl6'>
+<label for='pl8'>BSc</label>
+<input type='radio' name='pl6'>
+<label for='pl9'>BA</label>
+<input type='radio' name='pl6'></td>
+</tr>
+<tr>
+
+</table>
+<button class='s1'>Submit</button>
+<button class='s2'>Reset</button></td>
+</form>
+    </body>
+    </html>
